@@ -13,3 +13,5 @@ def category_create_view(request):
     return render(request, 'newcat.html')
 def new_task_view(request):
     return render(request, 'newtask.html')
+def test(request):
+    return render(request, 'test.html')
